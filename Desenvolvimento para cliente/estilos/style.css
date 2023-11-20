@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@500&family=Nunito+Sans:ital,opsz,wght@1,6..12,300&family=Nunito:ital,wght@0,400;1,300&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+
+}
+
+body{
+    background-color: #ffffff;
+ 
+}
+
+
+
+a {
+
+    text-decoration: none;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo{
+    font-size: 24px;
+    color: #977c73;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    background-color:  #f3ede7;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-bottom: 1px solid #977c73;
+    z-index: 9;
+}
+
+span{
+    color: #88affb;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+
+}
+
+.menu li {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.menu li a {
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    color: #b69492;
+}
+
+.menu li a:hover{
+    background-color: #ebded1;
+    color: #977c73;
+    border-radius: 10px;
+    border: 5x black;
+    transform: translate(1px, -2px);
+    transition: 0.3s;
+    
+  
+
+}
+
+.menu-mobile{
+    display: none;
+    cursor: pointer;
+}
+
+
+.section{
+    margin: auto;
+    max-width: 1200px;
+    position: relative;
+    background-image: url(../img/colheita-de-macarrao-e-vegetais.jpg);
+    background-size: cover;
+    width: 100%;
+    border-radius:0 0px 10px 10px;
+
+
+}
+
+
+.container{
+  display: flex;
+
+}
+
+.item1{
+    width: 60%;
+}
+
+.item2{
+    position: relative; 
+    top:90px;
+    right: 10px;
+    background-color: #f3ede7cb;
+    font-weight: 900;
+    height: 100%;
+    border-radius: 10%;
+    padding: 30px;
+    padding-left: 100px;
+}
+
+.item2 > h1 {
+    text-align: left;
+}
+
+.item2 > p {
+    padding: 20px;
+    text-align:left;
+    font-size: 17px;
+    height: 100%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.lista{
+    position: absolute;
+    top: 80px;
+    left: 800px;
+    font-size: 30px;
+}
+
+
+#whats{
+    padding: 10px;
+    color: #977c73;
+    position: absolute;
+    top:3%;
+    left: 30px;
+    font-size: 40px;
+
+    
+}
+
+#list{
+    padding: 10px;
+    color: #977c73;
+    position: absolute;
+    top:25%;
+    left: 30px;
+    font-size: 40px;
+}
+
+#camera{
+    padding: 10px;
+    color: #977c73;
+    position: absolute;
+    top:55%;
+    left: 30px;
+    font-size: 40px;
+}
+
+.icons{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    font-size: 24px;
+    
+}
+
+.icons-menu > a > i{
+    display: none;
+}
+
+#whats:hover{
+    background-color: #977c73;
+    color: #f0f2f5;
+    border-radius: 50%;
+}
+
+#list:hover{
+    background-color: #977c73;
+    color: #f0f2f5;
+    border-radius: 50%;
+}
+
+#camera:hover{
+    background-color: #977c73;
+    color: #f0f2f5;
+    border-radius: 50%;
+}
+.icons > a > i{
+    padding: 10px;
+    margin: 10px;
+    color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+.icons > a > i:hover{
+    transform: translate(1px, -2px);
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgba(167, 233, 250, 0.651);
+
+
+
+}
+
+#instagram{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #4268b300;
+}
+
+#facebook{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #4268b300;
+}
+
+#twitter{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #4268b300;
+}
+
+#linkedin{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #4268b300;
+}
+
+#whatsapp{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #4268b300;
+}
+
+article{
+    background-color: #977c73e1;
+    padding: 30px;
+    border-radius: 30%  0% 30% 0%;
+
+}
+
+.titulo1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.colunas{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: em;
+    align-content: space-between;
+    align-items: center;
+    width: 100%; 
+
+}
+
+
+.quadros{
+    background: linear-gradient(#e5d8cb73,#f0e8e1 );
+    margin:10px auto;
+    width: 350px;
+    position: relative; 
+    top:30px;
+    right: 10px;
+    border-radius:15px;
+    padding: 10px;
+    height: 450px;
+    border: 3px solid #f1f1f1;;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(75, 75, 75, 0.651);
+}
+
+.quadros > img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    width: 300px;
+    height: 200px;
+}
+
+.quadros > span{
+    color: #5f5f5f;
+    font-size: 16px;
+    
+}
+
+.quadros > h1{
+    padding: 10px;
+    
+}
+
+hr{
+    margin: auto;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, #6d6d6d, transparent);
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+/*Responsivade do section*/
+
+@media(max-width: 950px) {
+    .section{
+        width: 100%;
+
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    .icons{
+        position: absolute;
+        top: 50px;
+        font-size: 28px;
+        padding: 0px;
+        
+    }
+    
+    
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+         
+    
+    }
+    
+    .item1 img{
+        width: 100%;
+        
+      
+    }
+    .item1{
+        width: 100%;
+    }
+    
+    .item2{
+        background-color: #f3ede7;
+        width: 100%;
+        position: relative; 
+        top:0px;
+        left: 0px;
+        padding: 10px;
+        height: 100%;
+        border-radius: 10px;
+      
+    }
+
+
+    .item2 > h1{
+        margin: auto;
+        padding: 20px;
+        text-align: left;
+        padding-left: 100px;
+    }
+    
+    .item2 > p {
+        padding: 0px;
+        padding-left: 90px;
+        margin: auto;
+        text-align: left;
+
+    }
+    
+    #whats{
+        color: #977c73;
+        position: absolute;
+        top:2%;
+        left: 10px;
+        font-size: 40px;
+        
+    }
+    
+    #list{
+        color: #977c73;
+        position: absolute;
+        top:29%;
+        left: 10px;
+        font-size: 40px;
+    }
+    
+    #camera{
+        color: #977c73;
+        position: absolute;
+        top:58%;
+        left: 10px;
+        font-size: 40px;
+    }
+
+    .colunas{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 3em;
+        gap: 20px;
+    }
+    
+    .quadros{
+        position: relative; 
+        top:0px;
+        left: 0px;
+        padding: 10px;
+    }
+
+    /*icons do menu*/
+
+    .icons-menu > a > i{
+        position: relative;
+        top: 0;
+        left: 0;
+
+    }
+    
+    /*menu-mobile*/
+
+    .site-nav-menu{
+        float: none;
+        position: absolute;
+        background: #977c73fa;
+        width: 100%;
+        left: 0;
+        top: 85px;
+        padding: 30px 0px 150px 0px;
+        border-top: 1px solid #4a4848;
+        clip-path: circle(0% at 100% 0%);
+        transition: all .8s;
+    }
+
+    .menu-mobile{
+        clip-path: circle(112% at 100% 0%);
+        color: white;
+        display: block;
+        background-color: #977c73fa ;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 10px;
+    }
+
+    .menu{
+        display: block;
+        text-align: center;
+        margin: 25px 5px;
+    }
+
+    .menu li a {
+        font-weight: 200;
+        font-size: 18px;
+        display: block;
+        padding: 10px;
+        color: #000000;
+    }
+    
+    }
